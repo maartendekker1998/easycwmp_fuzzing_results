@@ -1,0 +1,45 @@
+diff id:000013,orig:reboot.xml -> id:000014,orig:schedule_inform.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: xml_handle_schedule_inform()
+  New 'line' coverage: 1687
+  New 'line' coverage: 1691
+  New 'line' coverage: 1692
+  New 'line' coverage: 1693
+  New 'line' coverage: 1694
+  New 'line' coverage: 1696
+  New 'line' coverage: 1697
+  New 'line' coverage: 1699
+  New 'line' coverage: 1700
+  New 'line' coverage: 1701
+  New 'line' coverage: 1702
+  New 'line' coverage: 1703
+  New 'line' coverage: 1704
+  New 'line' coverage: 1705
+  New 'line' coverage: 1707
+  New 'line' coverage: 1708
+  New 'line' coverage: 1709
+  New 'line' coverage: 1714
+  New 'line' coverage: 1715
+  New 'line' coverage: 1716
+  New 'line' coverage: 1717
+  New 'line' coverage: 1718
+  New 'line' coverage: 1720
+  New 'line' coverage: 1722
+  New 'line' coverage: 1724
+  New 'line' coverage: 1725
+  New 'line' coverage: 1726
+  New 'line' coverage: 1727
+  New 'line' coverage: 1733
+  New 'line' coverage: 1734
+  New 'line' coverage: 1735
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/cwmp.c
+  New 'function' coverage: cwmp_add_scheduled_inform()
+  New 'line' coverage: 405
+  New 'line' coverage: 407
+  New 'line' coverage: 409
+  New 'line' coverage: 410
+  New 'line' coverage: 411
+  New 'line' coverage: 412
+  New 'line' coverage: 413
+  New 'line' coverage: 414
+  New 'line' coverage: 415

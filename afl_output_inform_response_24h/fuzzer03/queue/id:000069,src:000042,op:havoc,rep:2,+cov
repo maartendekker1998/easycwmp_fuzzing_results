@@ -1,0 +1,1 @@
+<?xml versio"UTF-8" standalone="no"?><soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/enelope/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/envelope/" xmlns:cwmp="urn:dslforum-org:cwmp-1-1"><soap-env:Header/><AccessList soap-enc:arrayType="xsd:string[0]"e="xsd:string[0]"/></soap-env:Envelope>

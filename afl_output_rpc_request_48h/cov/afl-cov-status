@@ -1,0 +1,3 @@
+afl_cov_pid     : 4953
+afl_cov_version : 0.6.2
+command_line    : /home/maarten/Desktop/afl-cov/afl-cov -d /home/maarten/final_fuzzer_outputs/afl_output_rpc_request_48h/ --coverage-cmd ./bin/easycwmpd rpc_request AFL_FILE --code-dir .

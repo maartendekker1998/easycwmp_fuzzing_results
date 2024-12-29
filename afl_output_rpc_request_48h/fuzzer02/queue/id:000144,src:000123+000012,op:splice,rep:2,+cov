@@ -1,0 +1,2 @@
+
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap-enc="http://sche://schemas.xmlsoap.org/soap/encoding/"?><soap-env:Envelope xmlns:soap-env="http://s" xs:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cwmp="urn:dslforum-org:cwmp-1-2"><soap-env:Header><cwmp:ID soap-env:mustUnderstand="1">4</cwmp:ID></soap-env:Header><soap-env:Body><cwmp:InformResponse><MaxEnvelopes>1</MaxEnvelopes></cwmp:InformResponse></soap-env:Body></soap-env:Envelope>

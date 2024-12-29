@@ -1,0 +1,1 @@
+<soap-env:Envelope xmlnszxsd="http://www.w3.org/2001/XMLScope/"?><soap-env:Envelope nc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:cwmp="urn:dslforum-org:cwmp-1-1"><soap-env:Header></soap-env:Header><soap-env:Body><cwmp:TransferCompleteResponse></cwmp:TransferCompleteResponse></soap-env:Body></soap-env:Envelope>

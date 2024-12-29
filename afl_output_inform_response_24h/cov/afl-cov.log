@@ -1,0 +1,1116 @@
+
+*** Imported 70 new test cases from: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//fuzzer01/queue
+
+[+] AFL test case: id:000000,orig:add_object.xml (0 / 70), cycle: 0
+    lines......: 4.9% (187 of 3785 lines)
+    functions..: 6.3% (11 of 175 functions)
+
+    Coverage diff (init) id:000000,orig:add_object.xml
+diff (init) -> id:000000,orig:add_object.xml
+New src file: /usr/local/include/libubox/list.h
+  New 'line' coverage: 63
+  New 'line' coverage: 65
+New src file: /home/maarten/Desktop/easycwmp_cov_copy/src/harness.c
+  New 'function' coverage: main()
+  New 'line' coverage: 10
+  New 'line' coverage: 100
+  New 'line' coverage: 116
+  New 'line' coverage: 118
+  New 'line' coverage: 12
+  New 'line' coverage: 22
+  New 'line' coverage: 26
+  New 'line' coverage: 34
+  New 'line' coverage: 35
+  New 'line' coverage: 37
+  New 'line' coverage: 40
+  New 'line' coverage: 43
+  New 'line' coverage: 44
+  New 'line' coverage: 47
+  New 'line' coverage: 50
+  New 'line' coverage: 53
+  New 'line' coverage: 54
+  New 'line' coverage: 57
+  New 'line' coverage: 60
+  New 'line' coverage: 68
+  New 'line' coverage: 69
+  New 'line' coverage: 71
+  New 'line' coverage: 72
+  New 'line' coverage: 73
+  New 'line' coverage: 74
+  New 'line' coverage: 75
+  New 'line' coverage: 77
+  New 'line' coverage: 78
+  New 'line' coverage: 80
+  New 'line' coverage: 87
+  New 'line' coverage: 89
+  New 'line' coverage: 90
+  New 'line' coverage: 92
+  New 'line' coverage: 95
+  New 'line' coverage: 98
+New src file: /home/maarten/Desktop/easycwmp_cov_copy/src/log.c
+  New 'function' coverage: log_message()
+  New 'line' coverage: 41
+  New 'line' coverage: 43
+  New 'line' coverage: 45
+  New 'line' coverage: 47
+  New 'line' coverage: 48
+  New 'line' coverage: 49
+  New 'line' coverage: 50
+  New 'line' coverage: 51
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 57
+  New 'line' coverage: 58
+  New 'line' coverage: 60
+New src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: xml_free_ns()
+  New 'function' coverage: xml_get_hold_request()
+  New 'function' coverage: xml_mxml_find_node_by_env_type()
+  New 'function' coverage: xml_mxml_get_attrname_array()
+  New 'function' coverage: xml_parse_inform_response_message()
+  New 'function' coverage: xml_recreate_namespace()
+  New 'line' coverage: 155
+  New 'line' coverage: 157
+  New 'line' coverage: 158
+  New 'line' coverage: 159
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 214
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 222
+  New 'line' coverage: 225
+  New 'line' coverage: 226
+  New 'line' coverage: 227
+  New 'line' coverage: 229
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 236
+  New 'line' coverage: 239
+  New 'line' coverage: 240
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 244
+  New 'line' coverage: 245
+  New 'line' coverage: 248
+  New 'line' coverage: 249
+  New 'line' coverage: 250
+  New 'line' coverage: 255
+  New 'line' coverage: 257
+  New 'line' coverage: 258
+  New 'line' coverage: 259
+  New 'line' coverage: 260
+  New 'line' coverage: 262
+  New 'line' coverage: 264
+  New 'line' coverage: 265
+  New 'line' coverage: 266
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 270
+  New 'line' coverage: 271
+  New 'line' coverage: 276
+  New 'line' coverage: 277
+  New 'line' coverage: 280
+  New 'line' coverage: 281
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 287
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 290
+  New 'line' coverage: 294
+  New 'line' coverage: 295
+  New 'line' coverage: 296
+  New 'line' coverage: 297
+  New 'line' coverage: 300
+  New 'line' coverage: 302
+  New 'line' coverage: 303
+  New 'line' coverage: 308
+  New 'line' coverage: 310
+  New 'line' coverage: 311
+  New 'line' coverage: 313
+  New 'line' coverage: 315
+  New 'line' coverage: 317
+  New 'line' coverage: 318
+  New 'line' coverage: 319
+  New 'line' coverage: 326
+  New 'line' coverage: 328
+  New 'line' coverage: 329
+  New 'line' coverage: 330
+  New 'line' coverage: 671
+  New 'line' coverage: 673
+  New 'line' coverage: 674
+  New 'line' coverage: 675
+  New 'line' coverage: 677
+  New 'line' coverage: 678
+  New 'line' coverage: 679
+  New 'line' coverage: 681
+  New 'line' coverage: 682
+  New 'line' coverage: 691
+  New 'line' coverage: 692
+  New 'line' coverage: 693
+  New 'line' coverage: 704
+  New 'line' coverage: 705
+  New 'line' coverage: 706
+New src file: /home/maarten/Desktop/easycwmp_cov_copy/src/backup.c
+  New 'function' coverage: backup_init()
+  New 'line' coverage: 33
+  New 'line' coverage: 48
+  New 'line' coverage: 50
+  New 'line' coverage: 53
+New src file: /home/maarten/Desktop/easycwmp_cov_copy/src/external.c
+  New 'function' coverage: external_init()
+  New 'function' coverage: external_read_pipe()
+  New 'line' coverage: 134
+  New 'line' coverage: 136
+  New 'line' coverage: 137
+  New 'line' coverage: 138
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 142
+  New 'line' coverage: 143
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 151
+  New 'line' coverage: 153
+  New 'line' coverage: 155
+  New 'line' coverage: 156
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 186
+  New 'line' coverage: 188
+  New 'line' coverage: 189
+  New 'line' coverage: 191
+  New 'line' coverage: 193
+  New 'line' coverage: 198
+  New 'line' coverage: 200
+  New 'line' coverage: 201
+  New 'line' coverage: 202
+  New 'line' coverage: 204
+  New 'line' coverage: 205
+  New 'line' coverage: 206
+  New 'line' coverage: 208
+  New 'line' coverage: 209
+  New 'line' coverage: 210
+  New 'line' coverage: 211
+  New 'line' coverage: 212
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 223
+  New 'line' coverage: 226
+  New 'line' coverage: 227
+
+
+
+++++++ BEGIN - first exec output for CMD: ./bin/easycwmpd inform_response /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//fuzzer01/queue/id:000000,orig:add_object.xml
+    2024-12-29 14:18:28 [easycwmp] NOTICE - external script init
+    inform_response
+    
+    <?xml version="1.0" encoding="UTF-8"?><soap-env:Envelope xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cwmp="urn:dslforum-org:cwmp-1-2"><soap-env:Header><cwmp:ID soap-env:mustUnderstand="1">1910ee272180001</cwmp:ID></soap-env:Header><soap-env:Body><cwmp:AddObject><ObjectName>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.</ObjectName><ParameterKey>3544041</ParameterKey></cwmp:AddObject></soap-env:Body></soap-env:Envelope>
+    
+    
+    Inside mxml_load_data function
+++++++ END
+
+[+] AFL test case: id:000001,orig:delete_object.xml (1 / 70), cycle: 0
+    lines......: 4.9% (187 of 3785 lines)
+    functions..: 6.3% (11 of 175 functions)
+[+] AFL test case: id:000002,orig:download.xml (2 / 70), cycle: 0
+    lines......: 4.9% (187 of 3785 lines)
+    functions..: 6.3% (11 of 175 functions)
+[+] AFL test case: id:000003,orig:factory_reset.xml (3 / 70), cycle: 0
+    lines......: 4.9% (187 of 3785 lines)
+    functions..: 6.3% (11 of 175 functions)
+[+] AFL test case: id:000004,orig:fault.xml (4 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+
+    Coverage diff id:000003,orig:factory_reset.xml id:000004,orig:fault.xml
+diff id:000003,orig:factory_reset.xml -> id:000004,orig:fault.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: mxmlFindElementOpaque()
+  New 'line' coverage: 102
+  New 'line' coverage: 103
+  New 'line' coverage: 683
+  New 'line' coverage: 684
+  New 'line' coverage: 688
+  New 'line' coverage: 83
+  New 'line' coverage: 88
+  New 'line' coverage: 91
+  New 'line' coverage: 93
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+  New 'line' coverage: 97
+
+[+] AFL test case: id:000005,orig:get_parameter_attributes.xml (5 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000006,orig:get_parameter_names_1.xml (6 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000007,orig:get_parameter_names_2.xml (7 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000008,orig:get_parameter_values_1.xml (8 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000009,orig:get_parameter_values_2.xml (9 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000010,orig:get_rpc_methods.xml (10 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000011,orig:get_rpc_methods_response.xml (11 / 70), cycle: 0
+    lines......: 5.3% (199 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000012,orig:inform_response.xml (12 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+
+    Coverage diff id:000011,orig:get_rpc_methods_response.xml id:000012,orig:inform_response.xml
+diff id:000011,orig:get_rpc_methods_response.xml -> id:000012,orig:inform_response.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 695
+  New 'line' coverage: 696
+  New 'line' coverage: 700
+  New 'line' coverage: 701
+  New 'line' coverage: 702
+
+[+] AFL test case: id:000013,orig:reboot.xml (13 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000014,orig:schedule_inform.xml (14 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000015,orig:set_parameter_attributes_1.xml (15 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000016,orig:set_parameter_attributes_2.xml (16 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000017,orig:set_parameter_values_1.xml (17 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000018,orig:set_parameter_values_2.xml (18 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000019,orig:set_parameter_values_3.xml (19 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000020,orig:transfer_complete_response.xml (20 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000021,orig:upload.xml (21 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000022,src:000004,op:flip1,pos:0,+cov (22 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000023,src:000004,op:flip1,pos:1,+cov (23 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000024,src:000004,op:flip1,pos:1,+cov (24 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000025,src:000004,op:flip1,pos:62,+cov (25 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000026,src:000004,op:flip1,pos:115,+cov (26 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000027,src:000004,op:flip1,pos:174,+cov (27 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000028,src:000004,op:flip1,pos:186,+cov (28 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000029,src:000004,op:flip1,pos:219,+cov (29 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000030,src:000004,op:flip1,pos:273,+cov (30 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000031,src:000004,op:flip4,pos:56,+cov (31 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000032,src:000004,op:flip4,pos:115,+cov (32 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000033,src:000004,op:flip4,pos:174,+cov (33 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000034,src:000004,op:havoc,rep:2,+cov (34 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000035,sync:fuzzer02,src:000049,+cov (35 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000036,sync:fuzzer02,src:000039,+cov (36 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000037,sync:fuzzer02,src:000048,+cov (37 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000038,sync:fuzzer02,src:000047,+cov (38 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000039,sync:fuzzer02,src:000040,+cov (39 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000040,sync:fuzzer02,src:000036,+cov (40 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000041,sync:fuzzer02,src:000042,+cov (41 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000042,sync:fuzzer02,src:000044,+cov (42 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000043,sync:fuzzer02,src:000045,+cov (43 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000044,sync:fuzzer02,src:000043,+cov (44 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000045,sync:fuzzer02,src:000037,+cov (45 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000046,sync:fuzzer02,src:000050,+cov (46 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000047,sync:fuzzer02,src:000046,+cov (47 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000048,sync:fuzzer02,src:000038,+cov (48 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000049,sync:fuzzer02,src:000033,+cov (49 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000050,sync:fuzzer02,src:000030,+cov (50 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000051,sync:fuzzer04,src:000054,+cov (51 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000052,sync:fuzzer04,src:000053,+cov (52 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000053,sync:fuzzer04,src:000052,+cov (53 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000054,src:000020,op:flip1,pos:275,+cov (54 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000055,sync:fuzzer02,src:000057,+cov (55 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000056,sync:fuzzer02,src:000060,+cov (56 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000057,sync:fuzzer02,src:000059,+cov (57 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000058,sync:fuzzer02,src:000055,+cov (58 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000059,sync:fuzzer02,src:000061,+cov (59 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000060,sync:fuzzer02,src:000056,+cov (60 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000061,sync:fuzzer02,src:000054,+cov (61 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000062,sync:fuzzer02,src:000058,+cov (62 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000063,sync:fuzzer02,src:000063,+cov (63 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000064,sync:fuzzer02,src:000064,+cov (64 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000065,sync:fuzzer02,src:000065,+cov (65 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000066,src:000064,op:ext_AO,pos:336,+cov (66 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000067,sync:fuzzer03,src:000069,+cov (67 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000068,sync:fuzzer02,src:000068,+cov (68 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000069,sync:fuzzer02,src:000069,+cov (69 / 70), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+
+*** Imported 70 new test cases from: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//fuzzer02/queue
+
+[+] AFL test case: id:000000,orig:add_object.xml (0 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000001,orig:delete_object.xml (1 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000002,orig:download.xml (2 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000003,orig:factory_reset.xml (3 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000004,orig:fault.xml (4 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000005,orig:get_parameter_attributes.xml (5 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000006,orig:get_parameter_names_1.xml (6 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000007,orig:get_parameter_names_2.xml (7 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000008,orig:get_parameter_values_1.xml (8 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000009,orig:get_parameter_values_2.xml (9 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000010,orig:get_rpc_methods.xml (10 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000011,orig:get_rpc_methods_response.xml (11 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000012,orig:inform_response.xml (12 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000013,orig:reboot.xml (13 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000014,orig:schedule_inform.xml (14 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000015,orig:set_parameter_attributes_1.xml (15 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000016,orig:set_parameter_attributes_2.xml (16 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000017,orig:set_parameter_values_1.xml (17 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000018,orig:set_parameter_values_2.xml (18 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000019,orig:set_parameter_values_3.xml (19 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000020,orig:transfer_complete_response.xml (20 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000021,orig:upload.xml (21 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000022,src:000003,op:tree,pos:0,+cov (22 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000023,src:000003,op:tree,pos:0,+cov (23 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000024,src:000003,op:tree,pos:0,+cov (24 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000025,src:000003,op:tree,pos:0,+cov (25 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000026,src:000003,op:tree,pos:0,+cov (26 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000027,src:000003,op:tree,pos:0,+cov (27 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000028,src:000003,op:tree,pos:0,+cov (28 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000029,src:000003,op:tree,pos:0,+cov (29 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000030,src:000003,op:havoc,rep:4,+cov (30 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000031,src:000003,op:havoc,rep:2,+cov (31 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000032,src:000003,op:havoc,rep:2,+cov (32 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000033,src:000003,op:havoc,rep:2,+cov (33 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000034,src:000003,op:havoc,rep:2,+cov (34 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000035,sync:fuzzer01,src:000032,+cov (35 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000036,sync:fuzzer04,src:000030,+cov (36 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000037,sync:fuzzer03,src:000038,+cov (37 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000038,sync:fuzzer03,src:000039,+cov (38 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000039,sync:fuzzer03,src:000041,+cov (39 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000040,sync:fuzzer03,src:000042,+cov (40 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000041,sync:fuzzer03,src:000045,+cov (41 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000042,sync:fuzzer03,src:000046,+cov (42 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000043,sync:fuzzer03,src:000043,+cov (43 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000044,sync:fuzzer03,src:000044,+cov (44 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000045,sync:fuzzer04,src:000049,+cov (45 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000046,sync:fuzzer04,src:000046,+cov (46 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000047,sync:fuzzer04,src:000048,+cov (47 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000048,sync:fuzzer04,src:000050,+cov (48 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000049,sync:fuzzer04,src:000047,+cov (49 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000050,sync:fuzzer04,src:000051,+cov (50 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000051,sync:fuzzer01,src:000053,+cov (51 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000052,sync:fuzzer01,src:000051,+cov (52 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000053,sync:fuzzer01,src:000052,+cov (53 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000054,sync:fuzzer03,src:000056,+cov (54 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000055,sync:fuzzer03,src:000057,+cov (55 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000056,sync:fuzzer03,src:000058,+cov (56 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000057,sync:fuzzer03,src:000059,+cov (57 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000058,sync:fuzzer03,src:000061,+cov (58 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000059,sync:fuzzer03,src:000063,+cov (59 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000060,sync:fuzzer03,src:000062,+cov (60 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000061,sync:fuzzer03,src:000060,+cov (61 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000062,sync:fuzzer03,src:000064,+cov (62 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000063,sync:fuzzer03,src:000065,+cov (63 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000064,src:000029+000003,op:splice,rep:4,+cov (64 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000065,src:000029+000003,op:splice,rep:2,+cov (65 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000066,sync:fuzzer01,src:000066,+cov (66 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000067,sync:fuzzer01,src:000067,+cov (67 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000068,sync:fuzzer04,src:000069,+cov (68 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000069,sync:fuzzer03,src:000071,+cov (69 / 140), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+
+*** Imported 72 new test cases from: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//fuzzer03/queue
+
+[+] AFL test case: id:000000,orig:add_object.xml (0 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000001,orig:delete_object.xml (1 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000002,orig:download.xml (2 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000003,orig:factory_reset.xml (3 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000004,orig:fault.xml (4 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000005,orig:get_parameter_attributes.xml (5 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000006,orig:get_parameter_names_1.xml (6 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000007,orig:get_parameter_names_2.xml (7 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000008,orig:get_parameter_values_1.xml (8 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000009,orig:get_parameter_values_2.xml (9 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000010,orig:get_rpc_methods.xml (10 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000011,orig:get_rpc_methods_response.xml (11 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000012,orig:inform_response.xml (12 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000013,orig:reboot.xml (13 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000014,orig:schedule_inform.xml (14 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000015,orig:set_parameter_attributes_1.xml (15 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000016,orig:set_parameter_attributes_2.xml (16 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000017,orig:set_parameter_values_1.xml (17 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000018,orig:set_parameter_values_2.xml (18 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000019,orig:set_parameter_values_3.xml (19 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000020,orig:transfer_complete_response.xml (20 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000021,orig:upload.xml (21 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000022,src:000004,op:tree,pos:0,+cov (22 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000023,src:000004,op:tree,pos:0,+cov (23 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000024,src:000004,op:tree,pos:0,+cov (24 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000025,src:000004,op:tree,pos:0,+cov (25 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000026,src:000004,op:tree,pos:0,+cov (26 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000027,src:000004,op:tree,pos:0,+cov (27 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000028,src:000004,op:tree,pos:0,+cov (28 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000029,src:000004,op:tree,pos:0,+cov (29 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000030,sync:fuzzer02,src:000034,+cov (30 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000031,sync:fuzzer02,src:000031,+cov (31 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000032,sync:fuzzer02,src:000032,+cov (32 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000033,sync:fuzzer02,src:000026,+cov (33 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000034,sync:fuzzer02,src:000033,+cov (34 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000035,sync:fuzzer02,src:000030,+cov (35 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000036,sync:fuzzer02,src:000035,+cov (36 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000037,sync:fuzzer04,src:000030,+cov (37 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000038,src:000000,op:havoc,rep:2,+cov (38 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000039,src:000038,op:tree,rep:2,+cov (39 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000040,sync:fuzzer04,src:000041,+cov (40 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000041,sync:fuzzer04,src:000042,+cov (41 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000042,sync:fuzzer04,src:000039,+cov (42 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000043,sync:fuzzer04,src:000040,+cov (43 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000044,src:000040,op:tree,rep:64,+cov (44 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000045,src:000040,op:tree,rep:64,+cov (45 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000046,src:000040,op:havoc,rep:2,+cov (46 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000047,src:000043,op:tree,rep:2,+cov (47 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000048,src:000043,op:tree,rep:2,+cov (48 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000049,src:000044,op:tree,rep:8,+cov (49 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000050,src:000044,op:tree,rep:8,+cov (50 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000051,sync:fuzzer02,src:000048,+cov (51 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000052,sync:fuzzer02,src:000050,+cov (52 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000053,sync:fuzzer04,src:000054,+cov (53 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000054,sync:fuzzer04,src:000053,+cov (54 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000055,sync:fuzzer04,src:000052,+cov (55 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000056,src:000002+000036,op:splice,rep:8,+cov (56 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000057,sync:fuzzer04,src:000056,+cov (57 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000058,sync:fuzzer04,src:000055,+cov (58 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000059,src:000058,op:havoc,rep:8,+cov (59 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000060,src:000020+000007,op:splice,rep:8,+cov (60 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000061,src:000060,op:havoc,rep:2,+cov (61 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000062,src:000060,op:havoc,rep:2,+cov (62 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000063,src:000060,op:havoc,rep:4,+cov (63 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000064,sync:fuzzer04,src:000059,+cov (64 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000065,sync:fuzzer04,src:000064,+cov (65 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000066,sync:fuzzer02,src:000064,+cov (66 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000067,sync:fuzzer02,src:000065,+cov (67 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000068,sync:fuzzer01,src:000066,+cov (68 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000069,src:000042,op:havoc,rep:2,+cov (69 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000070,sync:fuzzer02,src:000068,+cov (70 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000071,src:000002+000070,op:splice,rep:2,+cov (71 / 212), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+
+*** Imported 71 new test cases from: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//fuzzer04/queue
+
+[+] AFL test case: id:000000,orig:add_object.xml (0 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000001,orig:delete_object.xml (1 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000002,orig:download.xml (2 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000003,orig:factory_reset.xml (3 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000004,orig:fault.xml (4 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000005,orig:get_parameter_attributes.xml (5 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000006,orig:get_parameter_names_1.xml (6 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000007,orig:get_parameter_names_2.xml (7 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000008,orig:get_parameter_values_1.xml (8 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000009,orig:get_parameter_values_2.xml (9 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000010,orig:get_rpc_methods.xml (10 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000011,orig:get_rpc_methods_response.xml (11 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000012,orig:inform_response.xml (12 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000013,orig:reboot.xml (13 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000014,orig:schedule_inform.xml (14 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000015,orig:set_parameter_attributes_1.xml (15 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000016,orig:set_parameter_attributes_2.xml (16 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000017,orig:set_parameter_values_1.xml (17 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000018,orig:set_parameter_values_2.xml (18 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000019,orig:set_parameter_values_3.xml (19 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000020,orig:transfer_complete_response.xml (20 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000021,orig:upload.xml (21 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000022,src:000003,op:tree,pos:0,+cov (22 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000023,src:000003,op:tree,pos:0,+cov (23 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000024,src:000003,op:tree,pos:0,+cov (24 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000025,src:000003,op:tree,pos:0,+cov (25 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000026,src:000003,op:tree,pos:0,+cov (26 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000027,src:000003,op:tree,pos:0,+cov (27 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000028,src:000003,op:tree,pos:0,+cov (28 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000029,src:000003,op:tree,pos:0,+cov (29 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000030,src:000003,op:havoc,rep:2,+cov (30 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000031,src:000003,op:havoc,rep:4,+cov (31 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000032,src:000003,op:havoc,rep:4,+cov (32 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000033,src:000003,op:havoc,rep:2,+cov (33 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000034,src:000003,op:havoc,rep:2,+cov (34 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000035,src:000003,op:havoc,rep:2,+cov (35 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000036,src:000003+000005,op:splice,rep:2,+cov (36 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000037,sync:fuzzer03,src:000038,+cov (37 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000038,sync:fuzzer03,src:000039,+cov (38 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000039,src:000036,op:tree,rep:8,+cov (39 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000040,src:000036,op:tree,rep:8,+cov (40 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000041,src:000036,op:tree,rep:8,+cov (41 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000042,src:000036,op:tree,rep:8,+cov (42 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000043,sync:fuzzer03,src:000045,+cov (43 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000044,sync:fuzzer03,src:000046,+cov (44 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000045,sync:fuzzer03,src:000044,+cov (45 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000046,src:000040,op:tree,rep:8,+cov (46 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000047,src:000040,op:tree,rep:8,+cov (47 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000048,src:000042,op:tree,rep:8,+cov (48 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000049,src:000043,op:tree,rep:4,+cov (49 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000050,src:000043,op:havoc,rep:2,+cov (50 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000051,src:000048,op:tree,rep:128,+cov (51 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000052,src:000049,op:tree,rep:4,+cov (52 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000053,src:000049+000047,op:splice,rep:2,+cov (53 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000054,src:000051,op:tree,rep:8,+cov (54 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000055,src:000020+000009,op:splice,rep:4,+cov (55 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000056,src:000055,op:havoc,rep:16,+cov (56 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000057,src:000055,op:havoc,rep:8,+cov (57 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000058,sync:fuzzer03,src:000059,+cov (58 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000059,src:000020,op:havoc,rep:2,+cov (59 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000060,sync:fuzzer02,src:000060,+cov (60 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000061,sync:fuzzer02,src:000059,+cov (61 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000062,sync:fuzzer02,src:000061,+cov (62 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000063,sync:fuzzer02,src:000058,+cov (63 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000064,src:000060,op:havoc,rep:2,+cov (64 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000065,sync:fuzzer02,src:000064,+cov (65 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000066,sync:fuzzer02,src:000065,+cov (66 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000067,sync:fuzzer01,src:000066,+cov (67 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000068,sync:fuzzer03,src:000069,+cov (68 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000069,src:000054+000039,op:splice,rep:2,+cov (69 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] AFL test case: id:000070,sync:fuzzer02,src:000069,+cov (70 / 283), cycle: 0
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] Processed 283 / 283 test cases.
+
+[+] Final zero coverage report: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//cov/zero-cov
+[+] Final positive coverage report: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//cov/pos-cov
+    lines......: 5.4% (204 of 3785 lines)
+    functions..: 6.9% (12 of 175 functions)
+[+] Final lcov web report: /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//cov/web/index.html

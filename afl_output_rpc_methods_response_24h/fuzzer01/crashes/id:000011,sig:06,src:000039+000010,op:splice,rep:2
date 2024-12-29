@@ -1,0 +1,1 @@
+<soap-env:lns:cw?><soap-env:Envelope mp="urn:dslforum-org:cwmp-1-2"><soap-env:Header><cwmp:ID soap-env:mustUnderstand="1">2</cwmp:ID></soap-env:Header><soap-env:Body><cwmp:GetRPCMethods/></soap-env:Body></soap-env:Envelope>

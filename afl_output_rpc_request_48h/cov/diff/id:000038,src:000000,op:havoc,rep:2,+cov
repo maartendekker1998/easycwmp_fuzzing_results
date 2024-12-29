@@ -1,0 +1,4 @@
+diff id:000037,src:000000,op:havoc,rep:2,+cov -> id:000038,src:000000,op:havoc,rep:2,+cov
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 404
+  New 'line' coverage: 405

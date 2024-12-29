@@ -1,0 +1,5 @@
+diff id:000018,orig:set_parameter_values_2.xml -> id:000019,orig:set_parameter_values_3.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 202
+  New 'line' coverage: 875
+  New 'line' coverage: 876

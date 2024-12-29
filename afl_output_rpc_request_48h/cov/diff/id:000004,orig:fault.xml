@@ -1,0 +1,12 @@
+diff id:000003,orig:factory_reset.xml -> id:000004,orig:fault.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 399
+  New 'line' coverage: 400
+  New 'line' coverage: 434
+  New 'line' coverage: 435
+  New 'line' coverage: 436
+  New 'line' coverage: 437
+  New 'line' coverage: 438
+  New 'line' coverage: 439
+  New 'line' coverage: 440
+  New 'line' coverage: 441

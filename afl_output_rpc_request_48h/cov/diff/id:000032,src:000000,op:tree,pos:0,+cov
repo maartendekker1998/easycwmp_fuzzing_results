@@ -1,0 +1,4 @@
+diff id:000031,src:000000,op:tree,pos:0,+cov -> id:000032,src:000000,op:tree,pos:0,+cov
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 1799
+  New 'line' coverage: 1800

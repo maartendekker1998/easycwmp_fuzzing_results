@@ -1,0 +1,11 @@
+diff id:000043,sync:fuzzer01,src:000035,+cov -> id:000044,sync:fuzzer03,src:000044,+cov
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 1426
+  New 'line' coverage: 1427
+  New 'line' coverage: 1466
+  New 'line' coverage: 1467
+  New 'line' coverage: 1468
+  New 'line' coverage: 1469
+  New 'line' coverage: 1470
+  New 'line' coverage: 1471
+  New 'line' coverage: 1472

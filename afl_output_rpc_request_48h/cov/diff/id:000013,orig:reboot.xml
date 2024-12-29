@@ -1,0 +1,39 @@
+diff id:000012,orig:inform_response.xml -> id:000013,orig:reboot.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: xml_handle_reboot()
+  New 'line' coverage: 1632
+  New 'line' coverage: 1636
+  New 'line' coverage: 1637
+  New 'line' coverage: 1638
+  New 'line' coverage: 1640
+  New 'line' coverage: 1641
+  New 'line' coverage: 1643
+  New 'line' coverage: 1644
+  New 'line' coverage: 1645
+  New 'line' coverage: 1646
+  New 'line' coverage: 1647
+  New 'line' coverage: 1648
+  New 'line' coverage: 1649
+  New 'line' coverage: 1651
+  New 'line' coverage: 1652
+  New 'line' coverage: 1653
+  New 'line' coverage: 1657
+  New 'line' coverage: 1660
+  New 'line' coverage: 1665
+  New 'line' coverage: 1666
+  New 'line' coverage: 1671
+  New 'line' coverage: 1672
+  New 'line' coverage: 1674
+  New 'line' coverage: 1676
+  New 'line' coverage: 1677
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/backup.c
+  New 'function' coverage: backup_add_event()
+  New 'line' coverage: 629
+  New 'line' coverage: 631
+  New 'line' coverage: 632
+  New 'line' coverage: 634
+  New 'line' coverage: 635
+  New 'line' coverage: 667
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+  New 'line' coverage: 670

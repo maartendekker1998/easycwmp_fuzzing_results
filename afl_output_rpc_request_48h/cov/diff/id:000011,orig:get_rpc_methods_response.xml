@@ -1,0 +1,4 @@
+diff id:000010,orig:get_rpc_methods.xml -> id:000011,orig:get_rpc_methods_response.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'line' coverage: 425
+  New 'line' coverage: 426

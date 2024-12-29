@@ -1,0 +1,15 @@
+diff id:000003,orig:factory_reset.xml -> id:000004,orig:fault.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: mxmlFindElementOpaque()
+  New 'line' coverage: 102
+  New 'line' coverage: 103
+  New 'line' coverage: 737
+  New 'line' coverage: 738
+  New 'line' coverage: 742
+  New 'line' coverage: 83
+  New 'line' coverage: 88
+  New 'line' coverage: 91
+  New 'line' coverage: 93
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+  New 'line' coverage: 97

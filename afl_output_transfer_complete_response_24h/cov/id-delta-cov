@@ -1,0 +1,13 @@
+# id:NNNNNN*_file, cycle, src_file, coverage_type, fcn/line
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/harness.c, function, main()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/log.c, function, log_message()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_free_ns()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_get_hold_request()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_mxml_find_node_by_env_type()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_mxml_get_attrname_array()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_parse_transfer_complete_response_message()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, xml_recreate_namespace()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/backup.c, function, backup_init()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/external.c, function, external_init()
+id:000000,orig:add_object.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/external.c, function, external_read_pipe()
+id:000004,orig:fault.xml, 0, /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c, function, mxmlFindElementOpaque()

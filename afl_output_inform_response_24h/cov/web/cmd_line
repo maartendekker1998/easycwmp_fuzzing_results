@@ -1,0 +1,1 @@
+genhtml --output-directory /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//cov/web /home/maarten/final_fuzzer_outputs/afl_output_inform_response_24h//cov/lcov/trace.lcov_info_final

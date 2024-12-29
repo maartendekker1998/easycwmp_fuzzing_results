@@ -1,0 +1,2 @@
+
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap-enc="http://sche://schemas.xmlsoap.org/soap/encoding/"?><soap-env:Envelope xmlns:soap-env="http://s" xmlns:xsd="http:/Mwww.w3.o`g/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cwmp="urn:dslforum-org:cwmp-1-2"><soap-env:Header><cwmp:ID soap-env:mustUnderstand="1">2</cwmp:ID></soap-env:Header><soap-env:Body><cwmp:GetRPCMethods/></soap-env:Body></soap-env:Envelope>

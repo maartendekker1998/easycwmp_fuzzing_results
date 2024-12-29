@@ -1,0 +1,3 @@
+afl_cov_pid     : 110424
+afl_cov_version : 0.6.2
+command_line    : /home/maarten/Desktop/afl-cov/afl-cov -d /home/maarten/final_fuzzer_outputs/afl_output_transfer_complete_response_24h/ --coverage-cmd ./bin/easycwmpd transfer_complete_response AFL_FILE --code-dir .

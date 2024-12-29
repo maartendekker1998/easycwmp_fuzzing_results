@@ -1,0 +1,68 @@
+# All functions / lines in this file were executed by at
+# least one AFL test case. See the cov/id-delta-cov file
+# for more information.
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/harness.c
+    function: main()
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/backup.c
+    function: backup_add_download()
+    function: backup_add_event()
+    function: backup_add_upload()
+    function: backup_init()
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/md5.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/cwmp.c
+    function: cwmp_add_download()
+    function: cwmp_add_handler_end_session()
+    function: cwmp_add_scheduled_inform()
+    function: cwmp_add_upload()
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/ubus.c
+File: /usr/local/include/libubox/blobmsg.h
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/digestauth.c
+File: /usr/local/include/libubox/blob.h
+File: /usr/local/include/libubox/uloop.h
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/time.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/http.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+    function: xml_check_duplicated_parameter()
+    function: xml_check_fault_in_list_parameter()
+    function: xml_create_generic_fault_message()
+    function: xml_create_set_parameter_value_fault_message()
+    function: xml_format_cb()
+    function: xml_free_ns()
+    function: xml_handle_AddObject()
+    function: xml_handle_DeleteObject()
+    function: xml_handle_download()
+    function: xml_handle_factory_reset()
+    function: xml_handle_get_parameter_attributes()
+    function: xml_handle_get_parameter_names()
+    function: xml_handle_get_parameter_values()
+    function: xml_handle_get_rpc_methods()
+    function: xml_handle_message()
+    function: xml_handle_reboot()
+    function: xml_handle_schedule_inform()
+    function: xml_handle_set_parameter_attributes()
+    function: xml_handle_set_parameter_values()
+    function: xml_handle_upload()
+    function: xml_log_parameter_fault()
+    function: xml_mxml_find_node_by_env_type()
+    function: xml_mxml_get_attrname_array()
+    function: xml_recreate_namespace()
+File: /usr/local/include/libubus.h
+File: /usr/local/include/libubox/list.h
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/json.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/basicauth.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/log.c
+    function: log_message()
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/external.c
+    function: external_action_handle()
+    function: external_action_parameter_execute()
+    function: external_action_simple_execute()
+    function: external_fetch_add_obj_resp()
+    function: external_fetch_method_resp_status()
+    function: external_fetch_set_param_resp_status()
+    function: external_free_list_parameter()
+    function: external_init()
+    function: external_read_pipe()
+    function: external_write_pipe()
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/easycwmp.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/config.c
+File: /home/maarten/Desktop/easycwmp_cov_copy/src/base64.c

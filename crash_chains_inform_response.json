@@ -1,0 +1,1136 @@
+{
+    "id:000000,sig:06,src:000003,op:havoc,rep:2": {
+        "id:000003,orig:factory_reset.xml": "Reached original"
+    },
+    "id:000000,sig:06,src:000020,op:ext_AO,pos:19": {
+        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+    },
+    "id:000000,sig:06,src:000020,op:havoc,rep:2": {
+        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+    },
+    "id:000000,sig:06,src:000055,op:havoc,rep:2": {
+        "id:000055,src:000020+000009,op:splice,rep:4,+cov": {
+            "id:000009,orig:get_parameter_values_2.xml": "Reached original",
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000001,sig:06,src:000020,op:ext_AO,pos:64": {
+        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+    },
+    "id:000001,sig:06,src:000030,op:havoc,rep:2": {
+        "id:000030,sync:fuzzer02,src:000034,+cov": {
+            "id:000034,src:000003,op:havoc,rep:2,+cov": {
+                "id:000003,orig:factory_reset.xml": "Reached original"
+            }
+        }
+    },
+    "id:000001,sig:06,src:000032,op:havoc,rep:2": {
+        "id:000032,src:000003,op:havoc,rep:2,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        }
+    },
+    "id:000001,sig:06,src:000055+000029,op:splice,rep:4": {
+        "id:000029,src:000003,op:tree,pos:0,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000055,src:000020+000009,op:splice,rep:4,+cov": {
+            "id:000009,orig:get_parameter_values_2.xml": "Reached original",
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000002,sig:06,src:000007,op:havoc,rep:2": {
+        "id:000007,orig:get_parameter_names_2.xml": "Reached original"
+    },
+    "id:000002,sig:06,src:000010,op:havoc,rep:2": {
+        "id:000010,orig:get_rpc_methods.xml": "Reached original"
+    },
+    "id:000002,sig:06,src:000052,op:havoc,rep:2": {
+        "id:000052,sync:fuzzer01,src:000051,+cov": {
+            "id:000051,sync:fuzzer04,src:000054,+cov": {
+                "id:000054,src:000051,op:tree,rep:8,+cov": {
+                    "id:000051,src:000048,op:tree,rep:128,+cov": {
+                        "id:000048,src:000042,op:tree,rep:8,+cov": {
+                            "id:000042,src:000036,op:tree,rep:8,+cov": {
+                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000002,sig:06,src:000054,op:havoc,rep:2": {
+        "id:000054,src:000020,op:flip1,pos:275,+cov": {
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000003,sig:06,src:000004+000028,op:splice,rep:4": {
+        "id:000004,orig:fault.xml": "Reached original",
+        "id:000028,src:000003,op:tree,pos:0,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        }
+    },
+    "id:000003,sig:06,src:000040+000025,op:splice,rep:2": {
+        "id:000025,src:000004,op:tree,pos:0,+cov": {
+            "id:000004,orig:fault.xml": "Reached original"
+        },
+        "id:000040,sync:fuzzer04,src:000041,+cov": {
+            "id:000041,src:000036,op:tree,rep:8,+cov": {
+                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                    "id:000003,orig:factory_reset.xml": "Reached original",
+                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000003,sig:06,src:000058,op:havoc,rep:8": {
+        "id:000058,sync:fuzzer02,src:000055,+cov": {
+            "id:000055,sync:fuzzer03,src:000057,+cov": {
+                "id:000057,sync:fuzzer04,src:000056,+cov": {
+                    "id:000056,src:000055,op:havoc,rep:16,+cov": {
+                        "id:000055,src:000020+000009,op:splice,rep:4,+cov": {
+                            "id:000009,orig:get_parameter_values_2.xml": "Reached original",
+                            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000003,sig:06,src:000060,op:havoc,rep:8": {
+        "id:000060,sync:fuzzer02,src:000060,+cov": {
+            "id:000060,sync:fuzzer03,src:000062,+cov": {
+                "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000004,sig:06,src:000005,op:ext_AO,pos:19": {
+        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+    },
+    "id:000004,sig:06,src:000047,op:havoc,rep:2": {
+        "id:000047,src:000043,op:tree,rep:2,+cov": {
+            "id:000043,sync:fuzzer04,src:000040,+cov": {
+                "id:000040,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000004,sig:06,src:000059+000003,op:splice,rep:4": {
+        "id:000003,orig:factory_reset.xml": "Reached original",
+        "id:000059,sync:fuzzer03,src:000063,+cov": {
+            "id:000063,src:000060,op:havoc,rep:4,+cov": {
+                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000004,sig:06,src:000061+000010,op:splice,rep:2": {
+        "id:000010,orig:get_rpc_methods.xml": "Reached original",
+        "id:000061,sync:fuzzer02,src:000059,+cov": {
+            "id:000059,sync:fuzzer03,src:000063,+cov": {
+                "id:000063,src:000060,op:havoc,rep:4,+cov": {
+                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000005,sig:06,src:000046+000026,op:splice,rep:16": {
+        "id:000026,src:000003,op:tree,pos:0,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000046,src:000040,op:tree,rep:8,+cov": {
+            "id:000040,src:000036,op:tree,rep:8,+cov": {
+                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                    "id:000003,orig:factory_reset.xml": "Reached original",
+                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000005,sig:06,src:000059+000029,op:splice,rep:2": {
+        "id:000029,src:000003,op:tree,pos:0,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000059,sync:fuzzer03,src:000063,+cov": {
+            "id:000063,src:000060,op:havoc,rep:4,+cov": {
+                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000005,sig:06,src:000059+000056,op:splice,rep:2": {
+        "id:000056,src:000002+000036,op:splice,rep:8,+cov": {
+            "id:000002,orig:download.xml": "Reached original",
+            "id:000036,sync:fuzzer02,src:000035,+cov": {
+                "id:000035,sync:fuzzer01,src:000032,+cov": {
+                    "id:000032,src:000004,op:flip4,pos:115,+cov": {
+                        "id:000004,orig:fault.xml": "Reached original"
+                    }
+                }
+            }
+        },
+        "id:000059,src:000058,op:havoc,rep:8,+cov": {
+            "id:000058,sync:fuzzer04,src:000055,+cov": {
+                "id:000055,src:000020+000009,op:splice,rep:4,+cov": {
+                    "id:000009,orig:get_parameter_values_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000005,sig:06,src:000059,op:havoc,rep:4": {
+        "id:000059,sync:fuzzer02,src:000061,+cov": {
+            "id:000061,sync:fuzzer03,src:000060,+cov": {
+                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000006,sig:06,src:000026+000049,op:splice,rep:2": {
+        "id:000026,src:000003,op:tree,pos:0,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000049,src:000043,op:tree,rep:4,+cov": {
+            "id:000043,sync:fuzzer03,src:000045,+cov": {
+                "id:000045,src:000040,op:tree,rep:64,+cov": {
+                    "id:000040,sync:fuzzer04,src:000041,+cov": {
+                        "id:000041,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000006,sig:06,src:000041+000006,op:splice,rep:2": {
+        "id:000006,orig:get_parameter_names_1.xml": "Reached original",
+        "id:000041,sync:fuzzer02,src:000042,+cov": {
+            "id:000042,sync:fuzzer03,src:000046,+cov": {
+                "id:000046,src:000040,op:havoc,rep:2,+cov": {
+                    "id:000040,sync:fuzzer04,src:000041,+cov": {
+                        "id:000041,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000006,sig:06,src:000060,op:havoc,rep:8": {
+        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000006,sig:06,src:000061,op:havoc,rep:4": {
+        "id:000061,sync:fuzzer03,src:000060,+cov": {
+            "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                "id:000020,orig:transfer_complete_response.xml": "Reached original"
+            }
+        }
+    },
+    "id:000007,sig:06,src:000037+000011,op:splice,rep:2": {
+        "id:000011,orig:get_rpc_methods_response.xml": "Reached original",
+        "id:000037,sync:fuzzer03,src:000038,+cov": {
+            "id:000038,src:000000,op:havoc,rep:2,+cov": {
+                "id:000000,orig:add_object.xml": "Reached original"
+            }
+        }
+    },
+    "id:000007,sig:06,src:000060,op:havoc,rep:16": {
+        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000007,sig:06,src:000063+000054,op:splice,rep:2": {
+        "id:000054,src:000020,op:flip1,pos:275,+cov": {
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        },
+        "id:000063,sync:fuzzer02,src:000063,+cov": {
+            "id:000063,sync:fuzzer03,src:000065,+cov": {
+                "id:000065,sync:fuzzer04,src:000064,+cov": {
+                    "id:000064,src:000060,op:havoc,rep:2,+cov": {
+                        "id:000060,sync:fuzzer02,src:000060,+cov": {
+                            "id:000060,sync:fuzzer03,src:000062,+cov": {
+                                "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000007,sig:06,src:000063,op:havoc,rep:4": {
+        "id:000063,sync:fuzzer02,src:000058,+cov": {
+            "id:000058,sync:fuzzer03,src:000061,+cov": {
+                "id:000061,src:000060,op:havoc,rep:2,+cov": {
+                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000008,sig:06,src:000005,op:havoc,rep:8": {
+        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+    },
+    "id:000008,sig:06,src:000041+000005,op:splice,rep:2": {
+        "id:000005,orig:get_parameter_attributes.xml": "Reached original",
+        "id:000041,sync:fuzzer04,src:000042,+cov": {
+            "id:000042,src:000036,op:tree,rep:8,+cov": {
+                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                    "id:000003,orig:factory_reset.xml": "Reached original",
+                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000008,sig:06,src:000044+000037,op:splice,rep:2": {
+        "id:000037,sync:fuzzer02,src:000048,+cov": {
+            "id:000048,sync:fuzzer04,src:000050,+cov": {
+                "id:000050,src:000043,op:havoc,rep:2,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000044,sync:fuzzer02,src:000043,+cov": {
+            "id:000043,sync:fuzzer03,src:000043,+cov": {
+                "id:000043,sync:fuzzer04,src:000040,+cov": {
+                    "id:000040,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000008,sig:06,src:000054,op:havoc,rep:16": {
+        "id:000054,sync:fuzzer03,src:000056,+cov": {
+            "id:000056,src:000002+000036,op:splice,rep:8,+cov": {
+                "id:000002,orig:download.xml": "Reached original",
+                "id:000036,sync:fuzzer02,src:000035,+cov": {
+                    "id:000035,sync:fuzzer01,src:000032,+cov": {
+                        "id:000032,src:000004,op:flip4,pos:115,+cov": {
+                            "id:000004,orig:fault.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000009,sig:06,src:000039+000038,op:splice,rep:2": {
+        "id:000038,src:000000,op:havoc,rep:2,+cov": {
+            "id:000000,orig:add_object.xml": "Reached original"
+        },
+        "id:000039,src:000038,op:tree,rep:2,+cov": {
+            "id:000038,src:000000,op:havoc,rep:2,+cov": {
+                "id:000000,orig:add_object.xml": "Reached original"
+            }
+        }
+    },
+    "id:000009,sig:06,src:000043+000049,op:splice,rep:4": {
+        "id:000043,sync:fuzzer03,src:000045,+cov": {
+            "id:000045,src:000040,op:tree,rep:64,+cov": {
+                "id:000040,sync:fuzzer04,src:000041,+cov": {
+                    "id:000041,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        },
+        "id:000049,src:000043,op:tree,rep:4,+cov": {
+            "id:000043,sync:fuzzer03,src:000045,+cov": {
+                "id:000045,src:000040,op:tree,rep:64,+cov": {
+                    "id:000040,sync:fuzzer04,src:000041,+cov": {
+                        "id:000041,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000009,sig:06,src:000051,op:havoc,rep:2": {
+        "id:000051,sync:fuzzer04,src:000054,+cov": {
+            "id:000054,src:000051,op:tree,rep:8,+cov": {
+                "id:000051,src:000048,op:tree,rep:128,+cov": {
+                    "id:000048,src:000042,op:tree,rep:8,+cov": {
+                        "id:000042,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000009,sig:06,src:000060,op:havoc,rep:8": {
+        "id:000060,sync:fuzzer03,src:000062,+cov": {
+            "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000010,sig:06,src:000030,op:havoc,rep:2": {
+        "id:000030,src:000003,op:havoc,rep:4,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        }
+    },
+    "id:000010,sig:06,src:000042+000037,op:splice,rep:4": {
+        "id:000037,sync:fuzzer02,src:000048,+cov": {
+            "id:000048,sync:fuzzer04,src:000050,+cov": {
+                "id:000050,src:000043,op:havoc,rep:2,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000042,sync:fuzzer02,src:000044,+cov": {
+            "id:000044,sync:fuzzer03,src:000044,+cov": {
+                "id:000044,src:000040,op:tree,rep:64,+cov": {
+                    "id:000040,sync:fuzzer04,src:000041,+cov": {
+                        "id:000041,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000010,sig:06,src:000060,op:havoc,rep:2": {
+        "id:000060,sync:fuzzer02,src:000060,+cov": {
+            "id:000060,sync:fuzzer03,src:000062,+cov": {
+                "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000010,sig:06,src:000065,op:havoc,rep:4": {
+        "id:000065,sync:fuzzer04,src:000064,+cov": {
+            "id:000064,src:000060,op:havoc,rep:2,+cov": {
+                "id:000060,sync:fuzzer02,src:000060,+cov": {
+                    "id:000060,sync:fuzzer03,src:000062,+cov": {
+                        "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                            "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                                "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                                "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000011,sig:06,src:000024+000034,op:splice,rep:2": {
+        "id:000024,src:000004,op:flip1,pos:1,+cov": {
+            "id:000004,orig:fault.xml": "Reached original"
+        },
+        "id:000034,src:000004,op:havoc,rep:2,+cov": {
+            "id:000004,orig:fault.xml": "Reached original"
+        }
+    },
+    "id:000011,sig:06,src:000037+000012,op:splice,rep:2": {
+        "id:000012,orig:inform_response.xml": "Reached original",
+        "id:000037,sync:fuzzer03,src:000038,+cov": {
+            "id:000038,src:000000,op:havoc,rep:2,+cov": {
+                "id:000000,orig:add_object.xml": "Reached original"
+            }
+        }
+    },
+    "id:000011,sig:06,src:000054+000013,op:splice,rep:4": {
+        "id:000013,orig:reboot.xml": "Reached original",
+        "id:000054,sync:fuzzer03,src:000056,+cov": {
+            "id:000056,src:000002+000036,op:splice,rep:8,+cov": {
+                "id:000002,orig:download.xml": "Reached original",
+                "id:000036,sync:fuzzer02,src:000035,+cov": {
+                    "id:000035,sync:fuzzer01,src:000032,+cov": {
+                        "id:000032,src:000004,op:flip4,pos:115,+cov": {
+                            "id:000004,orig:fault.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000011,sig:06,src:000065+000064,op:splice,rep:2": {
+        "id:000064,sync:fuzzer04,src:000059,+cov": {
+            "id:000059,src:000020,op:havoc,rep:2,+cov": {
+                "id:000020,orig:transfer_complete_response.xml": "Reached original"
+            }
+        },
+        "id:000065,sync:fuzzer04,src:000064,+cov": {
+            "id:000064,src:000060,op:havoc,rep:2,+cov": {
+                "id:000060,sync:fuzzer02,src:000060,+cov": {
+                    "id:000060,sync:fuzzer03,src:000062,+cov": {
+                        "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                            "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                                "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                                "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000012,sig:06,src:000043+000048,op:splice,rep:2": {
+        "id:000043,sync:fuzzer03,src:000043,+cov": {
+            "id:000043,sync:fuzzer04,src:000040,+cov": {
+                "id:000040,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            }
+        },
+        "id:000048,sync:fuzzer04,src:000050,+cov": {
+            "id:000050,src:000043,op:havoc,rep:2,+cov": {
+                "id:000043,sync:fuzzer03,src:000045,+cov": {
+                    "id:000045,src:000040,op:tree,rep:64,+cov": {
+                        "id:000040,sync:fuzzer04,src:000041,+cov": {
+                            "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000012,sig:06,src:000059,op:havoc,rep:8": {
+        "id:000059,sync:fuzzer02,src:000061,+cov": {
+            "id:000061,sync:fuzzer03,src:000060,+cov": {
+                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000012,sig:06,src:000064,op:havoc,rep:16": {
+        "id:000064,src:000060,op:havoc,rep:2,+cov": {
+            "id:000060,sync:fuzzer02,src:000060,+cov": {
+                "id:000060,sync:fuzzer03,src:000062,+cov": {
+                    "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000012,sig:06,src:000067+000055,op:splice,rep:2": {
+        "id:000055,sync:fuzzer04,src:000052,+cov": {
+            "id:000052,src:000049,op:tree,rep:4,+cov": {
+                "id:000049,src:000043,op:tree,rep:4,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000067,sync:fuzzer02,src:000065,+cov": {
+            "id:000065,src:000029+000003,op:splice,rep:2,+cov": {
+                "id:000003,orig:factory_reset.xml": "Reached original",
+                "id:000029,src:000003,op:tree,pos:0,+cov": {
+                    "id:000003,orig:factory_reset.xml": "Reached original"
+                }
+            }
+        }
+    },
+    "id:000013,sig:06,src:000033+000021,op:splice,rep:2": {
+        "id:000021,orig:upload.xml": "Reached original",
+        "id:000033,src:000003,op:havoc,rep:2,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        }
+    },
+    "id:000013,sig:06,src:000060+000054,op:splice,rep:2": {
+        "id:000054,sync:fuzzer04,src:000053,+cov": {
+            "id:000053,src:000049+000047,op:splice,rep:2,+cov": {
+                "id:000047,src:000040,op:tree,rep:8,+cov": {
+                    "id:000040,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                },
+                "id:000049,src:000043,op:tree,rep:4,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+        }
+    },
+    "id:000013,sig:06,src:000063+000006,op:splice,rep:4": {
+        "id:000006,orig:get_parameter_names_1.xml": "Reached original",
+        "id:000063,sync:fuzzer03,src:000065,+cov": {
+            "id:000065,sync:fuzzer04,src:000064,+cov": {
+                "id:000064,src:000060,op:havoc,rep:2,+cov": {
+                    "id:000060,sync:fuzzer02,src:000060,+cov": {
+                        "id:000060,sync:fuzzer03,src:000062,+cov": {
+                            "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                                "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                                    "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                                    "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000013,sig:06,src:000063+000027,op:splice,rep:4": {
+        "id:000027,src:000004,op:flip1,pos:174,+cov": {
+            "id:000004,orig:fault.xml": "Reached original"
+        },
+        "id:000063,sync:fuzzer02,src:000063,+cov": {
+            "id:000063,sync:fuzzer03,src:000065,+cov": {
+                "id:000065,sync:fuzzer04,src:000064,+cov": {
+                    "id:000064,src:000060,op:havoc,rep:2,+cov": {
+                        "id:000060,sync:fuzzer02,src:000060,+cov": {
+                            "id:000060,sync:fuzzer03,src:000062,+cov": {
+                                "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000014,sig:06,src:000039+000052,op:splice,rep:2": {
+        "id:000039,sync:fuzzer03,src:000041,+cov": {
+            "id:000041,sync:fuzzer04,src:000042,+cov": {
+                "id:000042,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            }
+        },
+        "id:000052,sync:fuzzer01,src:000051,+cov": {
+            "id:000051,sync:fuzzer04,src:000054,+cov": {
+                "id:000054,src:000051,op:tree,rep:8,+cov": {
+                    "id:000051,src:000048,op:tree,rep:128,+cov": {
+                        "id:000048,src:000042,op:tree,rep:8,+cov": {
+                            "id:000042,src:000036,op:tree,rep:8,+cov": {
+                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000014,sig:06,src:000056+000021,op:splice,rep:4": {
+        "id:000021,orig:upload.xml": "Reached original",
+        "id:000056,src:000002+000036,op:splice,rep:8,+cov": {
+            "id:000002,orig:download.xml": "Reached original",
+            "id:000036,sync:fuzzer02,src:000035,+cov": {
+                "id:000035,sync:fuzzer01,src:000032,+cov": {
+                    "id:000032,src:000004,op:flip4,pos:115,+cov": {
+                        "id:000004,orig:fault.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000014,sig:06,src:000061+000000,op:splice,rep:2": {
+        "id:000000,orig:add_object.xml": "Reached original",
+        "id:000061,sync:fuzzer02,src:000059,+cov": {
+            "id:000059,sync:fuzzer03,src:000063,+cov": {
+                "id:000063,src:000060,op:havoc,rep:4,+cov": {
+                    "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                        "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000014,sig:06,src:000069,op:havoc,rep:4": {
+        "id:000069,sync:fuzzer02,src:000069,+cov": {
+            "id:000069,sync:fuzzer03,src:000071,+cov": {
+                "id:000071,src:000002+000070,op:splice,rep:2,+cov": {
+                    "id:000002,orig:download.xml": "Reached original",
+                    "id:000070,sync:fuzzer02,src:000068,+cov": {
+                        "id:000068,sync:fuzzer04,src:000069,+cov": {
+                            "id:000069,src:000054+000039,op:splice,rep:2,+cov": {
+                                "id:000039,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                },
+                                "id:000054,src:000051,op:tree,rep:8,+cov": {
+                                    "id:000051,src:000048,op:tree,rep:128,+cov": {
+                                        "id:000048,src:000042,op:tree,rep:8,+cov": {
+                                            "id:000042,src:000036,op:tree,rep:8,+cov": {
+                                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000015,sig:06,src:000037+000033,op:splice,rep:2": {
+        "id:000033,src:000003,op:havoc,rep:2,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000037,sync:fuzzer03,src:000038,+cov": {
+            "id:000038,src:000000,op:havoc,rep:2,+cov": {
+                "id:000000,orig:add_object.xml": "Reached original"
+            }
+        }
+    },
+    "id:000015,sig:06,src:000052+000055,op:splice,rep:2": {
+        "id:000052,sync:fuzzer02,src:000050,+cov": {
+            "id:000050,sync:fuzzer04,src:000051,+cov": {
+                "id:000051,src:000048,op:tree,rep:128,+cov": {
+                    "id:000048,src:000042,op:tree,rep:8,+cov": {
+                        "id:000042,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000055,sync:fuzzer04,src:000052,+cov": {
+            "id:000052,src:000049,op:tree,rep:4,+cov": {
+                "id:000049,src:000043,op:tree,rep:4,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000015,sig:06,src:000052,op:havoc,rep:2": {
+        "id:000052,sync:fuzzer04,src:000053,+cov": {
+            "id:000053,src:000049+000047,op:splice,rep:2,+cov": {
+                "id:000047,src:000040,op:tree,rep:8,+cov": {
+                    "id:000040,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                },
+                "id:000049,src:000043,op:tree,rep:4,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000015,sig:06,src:000054+000005,op:splice,rep:2": {
+        "id:000005,orig:get_parameter_attributes.xml": "Reached original",
+        "id:000054,src:000051,op:tree,rep:8,+cov": {
+            "id:000051,src:000048,op:tree,rep:128,+cov": {
+                "id:000048,src:000042,op:tree,rep:8,+cov": {
+                    "id:000042,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000016,sig:06,src:000024,op:havoc,rep:2": {
+        "id:000024,src:000004,op:flip1,pos:1,+cov": {
+            "id:000004,orig:fault.xml": "Reached original"
+        }
+    },
+    "id:000016,sig:06,src:000044+000041,op:splice,rep:2": {
+        "id:000041,sync:fuzzer03,src:000045,+cov": {
+            "id:000045,src:000040,op:tree,rep:64,+cov": {
+                "id:000040,sync:fuzzer04,src:000041,+cov": {
+                    "id:000041,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        },
+        "id:000044,sync:fuzzer03,src:000044,+cov": {
+            "id:000044,src:000040,op:tree,rep:64,+cov": {
+                "id:000040,sync:fuzzer04,src:000041,+cov": {
+                    "id:000041,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000016,sig:06,src:000049,op:havoc,rep:2": {
+        "id:000049,src:000044,op:tree,rep:8,+cov": {
+            "id:000044,src:000040,op:tree,rep:64,+cov": {
+                "id:000040,sync:fuzzer04,src:000041,+cov": {
+                    "id:000041,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000016,sig:06,src:000064+000005,op:splice,rep:2": {
+        "id:000005,orig:get_parameter_attributes.xml": "Reached original",
+        "id:000064,src:000060,op:havoc,rep:2,+cov": {
+            "id:000060,sync:fuzzer02,src:000060,+cov": {
+                "id:000060,sync:fuzzer03,src:000062,+cov": {
+                    "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000017,sig:06,src:000020+000021,op:splice,rep:2": {
+        "id:000020,orig:transfer_complete_response.xml": "Reached original",
+        "id:000021,orig:upload.xml": "Reached original"
+    },
+    "id:000017,sig:06,src:000048,op:havoc,rep:2": {
+        "id:000048,src:000043,op:tree,rep:2,+cov": {
+            "id:000043,sync:fuzzer04,src:000040,+cov": {
+                "id:000040,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000017,sig:06,src:000064+000034,op:splice,rep:2": {
+        "id:000034,src:000003,op:havoc,rep:2,+cov": {
+            "id:000003,orig:factory_reset.xml": "Reached original"
+        },
+        "id:000064,src:000060,op:havoc,rep:2,+cov": {
+            "id:000060,sync:fuzzer02,src:000060,+cov": {
+                "id:000060,sync:fuzzer03,src:000062,+cov": {
+                    "id:000062,src:000060,op:havoc,rep:2,+cov": {
+                        "id:000060,src:000020+000007,op:splice,rep:8,+cov": {
+                            "id:000007,orig:get_parameter_names_2.xml": "Reached original",
+                            "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000017,sig:06,src:000069,op:havoc,rep:2": {
+        "id:000069,sync:fuzzer03,src:000071,+cov": {
+            "id:000071,src:000002+000070,op:splice,rep:2,+cov": {
+                "id:000002,orig:download.xml": "Reached original",
+                "id:000070,sync:fuzzer02,src:000068,+cov": {
+                    "id:000068,sync:fuzzer04,src:000069,+cov": {
+                        "id:000069,src:000054+000039,op:splice,rep:2,+cov": {
+                            "id:000039,src:000036,op:tree,rep:8,+cov": {
+                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                }
+                            },
+                            "id:000054,src:000051,op:tree,rep:8,+cov": {
+                                "id:000051,src:000048,op:tree,rep:128,+cov": {
+                                    "id:000048,src:000042,op:tree,rep:8,+cov": {
+                                        "id:000042,src:000036,op:tree,rep:8,+cov": {
+                                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000018,sig:06,src:000044,op:havoc,rep:4": {
+        "id:000044,sync:fuzzer03,src:000044,+cov": {
+            "id:000044,src:000040,op:tree,rep:64,+cov": {
+                "id:000040,sync:fuzzer04,src:000041,+cov": {
+                    "id:000041,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000018,sig:06,src:000046,op:havoc,rep:2": {
+        "id:000046,src:000040,op:havoc,rep:2,+cov": {
+            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    },
+    "id:000018,sig:06,src:000050,op:havoc,rep:4": {
+        "id:000050,sync:fuzzer02,src:000030,+cov": {
+            "id:000030,src:000003,op:havoc,rep:4,+cov": {
+                "id:000003,orig:factory_reset.xml": "Reached original"
+            }
+        }
+    },
+    "id:000018,sig:06,src:000053,op:havoc,rep:2": {
+        "id:000053,src:000049+000047,op:splice,rep:2,+cov": {
+            "id:000047,src:000040,op:tree,rep:8,+cov": {
+                "id:000040,src:000036,op:tree,rep:8,+cov": {
+                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                        "id:000003,orig:factory_reset.xml": "Reached original",
+                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                    }
+                }
+            },
+            "id:000049,src:000043,op:tree,rep:4,+cov": {
+                "id:000043,sync:fuzzer03,src:000045,+cov": {
+                    "id:000045,src:000040,op:tree,rep:64,+cov": {
+                        "id:000040,sync:fuzzer04,src:000041,+cov": {
+                            "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                    "id:000003,orig:factory_reset.xml": "Reached original",
+                                    "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000019,sig:06,src:000040+000050,op:splice,rep:2": {
+        "id:000040,src:000036,op:tree,rep:8,+cov": {
+            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                "id:000003,orig:factory_reset.xml": "Reached original",
+                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+            }
+        },
+        "id:000050,src:000043,op:havoc,rep:2,+cov": {
+            "id:000043,sync:fuzzer03,src:000045,+cov": {
+                "id:000045,src:000040,op:tree,rep:64,+cov": {
+                    "id:000040,sync:fuzzer04,src:000041,+cov": {
+                        "id:000041,src:000036,op:tree,rep:8,+cov": {
+                            "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                "id:000003,orig:factory_reset.xml": "Reached original",
+                                "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000019,sig:06,src:000044+000037,op:splice,rep:2": {
+        "id:000037,sync:fuzzer02,src:000048,+cov": {
+            "id:000048,sync:fuzzer04,src:000050,+cov": {
+                "id:000050,src:000043,op:havoc,rep:2,+cov": {
+                    "id:000043,sync:fuzzer03,src:000045,+cov": {
+                        "id:000045,src:000040,op:tree,rep:64,+cov": {
+                            "id:000040,sync:fuzzer04,src:000041,+cov": {
+                                "id:000041,src:000036,op:tree,rep:8,+cov": {
+                                    "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                                        "id:000003,orig:factory_reset.xml": "Reached original",
+                                        "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "id:000044,sync:fuzzer02,src:000043,+cov": {
+            "id:000043,sync:fuzzer03,src:000043,+cov": {
+                "id:000043,sync:fuzzer04,src:000040,+cov": {
+                    "id:000040,src:000036,op:tree,rep:8,+cov": {
+                        "id:000036,src:000003+000005,op:splice,rep:2,+cov": {
+                            "id:000003,orig:factory_reset.xml": "Reached original",
+                            "id:000005,orig:get_parameter_attributes.xml": "Reached original"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "id:000020,sig:06,src:000058+000019,op:splice,rep:2": {
+        "id:000019,orig:set_parameter_values_3.xml": "Reached original",
+        "id:000058,sync:fuzzer03,src:000059,+cov": {
+            "id:000059,src:000058,op:havoc,rep:8,+cov": {
+                "id:000058,sync:fuzzer04,src:000055,+cov": {
+                    "id:000055,src:000020+000009,op:splice,rep:4,+cov": {
+                        "id:000009,orig:get_parameter_values_2.xml": "Reached original",
+                        "id:000020,orig:transfer_complete_response.xml": "Reached original"
+                    }
+                }
+            }
+        }
+    }
+}

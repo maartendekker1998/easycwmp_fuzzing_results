@@ -1,0 +1,2 @@
+
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap-enc="http://sche://schemas.xmlsoap.org/soap/encoding/"?><soap-env:Envelope xmlns:soap-env="http:ma-instance"><string>InternetGatewayDevice.Foo</string><stv:Header/><soap-env:Body><cwmp:GetParameterAttributes><ParameterNames xxsi="http://www.w3.org/2001/XMLSchema-instance"><string>InternetGatewayDevice.Foo</string><string>InternetGatewayDevice.Bar</string></ParameterNames></cwmp:GetParameterAttributes></soap-env:Body></soap-env:Envelope>

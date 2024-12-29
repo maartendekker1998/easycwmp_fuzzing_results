@@ -1,0 +1,37 @@
+diff id:000007,orig:get_parameter_names_2.xml -> id:000008,orig:get_parameter_values_1.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: xml_handle_get_parameter_values()
+  New 'line' coverage: 1010
+  New 'line' coverage: 1011
+  New 'line' coverage: 1014
+  New 'line' coverage: 1015
+  New 'line' coverage: 1017
+  New 'line' coverage: 1018
+  New 'line' coverage: 939
+  New 'line' coverage: 943
+  New 'line' coverage: 944
+  New 'line' coverage: 945
+  New 'line' coverage: 946
+  New 'line' coverage: 947
+  New 'line' coverage: 949
+  New 'line' coverage: 951
+  New 'line' coverage: 953
+  New 'line' coverage: 954
+  New 'line' coverage: 955
+  New 'line' coverage: 956
+  New 'line' coverage: 957
+  New 'line' coverage: 961
+  New 'line' coverage: 962
+  New 'line' coverage: 963
+  New 'line' coverage: 967
+  New 'line' coverage: 968
+  New 'line' coverage: 969
+  New 'line' coverage: 971
+  New 'line' coverage: 972
+  New 'line' coverage: 978
+  New 'line' coverage: 979
+  New 'line' coverage: 982
+  New 'line' coverage: 983
+  New 'line' coverage: 984
+  New 'line' coverage: 985
+  New 'line' coverage: 987

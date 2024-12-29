@@ -1,0 +1,17 @@
+diff id:000002,orig:download.xml -> id:000003,orig:factory_reset.xml
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/xml.c
+  New 'function' coverage: xml_handle_factory_reset()
+  New 'line' coverage: 1612
+  New 'line' coverage: 1616
+  New 'line' coverage: 1618
+  New 'line' coverage: 1619
+  New 'line' coverage: 1621
+  New 'line' coverage: 1622
+  New 'line' coverage: 1624
+  New 'line' coverage: 1626
+  New 'line' coverage: 1627
+Src file: /home/maarten/Desktop/easycwmp_cov_copy/src/cwmp.c
+  New 'function' coverage: cwmp_add_handler_end_session()
+  New 'line' coverage: 240
+  New 'line' coverage: 242
+  New 'line' coverage: 243
